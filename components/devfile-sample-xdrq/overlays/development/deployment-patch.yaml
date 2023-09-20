@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-xdrq
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/ci10t-776-0071-tenant/ci10t-776-0071-app/devfile-sample-xdrq@sha256:13ce08885b4dbc126b13eda47a07cc3e523d0082f0e014d87846dfb5835073a2
+        name: my-nodejs
+        resources: {}
+status: {}
